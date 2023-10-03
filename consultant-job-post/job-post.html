@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Job-post</title>
+        
+        <!--CSS-->
+        <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+		
+        <!--JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.min.js"></script>
+
+            
+    </head>
+	<body>
+		
+		<!---CONSULTANT JOB POST--->
+		
+		<div class="site-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="job-post-wrapper">
+							<div class="post-shadow-box">
+								<div class="job-post-header">
+									<div class="col-12 p-0">
+										<div class="consult-logo">
+											<img src="images/consult-logo.png">
+										</div>
+									</div>
+									<div class="col-12 p-0">
+										<div class="row m-0 align-items-center">
+											<div class="col-md-8 col-12 p-0">
+												<div class="post-header-content">
+													<div class="consult-heading">
+														<h2>Hire the best academic experts</h2>
+														<p>Boost your academic success with us! Share your project details, browse profiles, contact academic experts, and pay only when you are satisfied</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4 col-12 p-0">
+												<div class="post-header-image">
+													<img src="images/expert.png">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="job-post-form">
+									<form id="multi-step-form">
+										<div class="step step-1">
+											<div class="main-form">
+												<div class="form-group">
+													<label for="field1" class="form-label">What is your project title?</label>
+													<div class="input-group">
+														<input type="text" class="form-control" id="field1" name="field1" placeholder="eg. Developing curriculum for Postgraduate public health unit">
+													</div>
+												</div>
+											</div>
+											<div class="form-buttons">
+												<button type="button" class="btn btn-primary next-step">Next</button>
+											</div>
+										</div>
+
+										<div class="step step-2">
+											<div class="main-form">
+												<div class="input-group">
+													<input type="text" class="form-control editField" value="Academic content writer" readonly>
+													<a class="edit-icon">
+														<img src="images/edit-icon.png">
+													</a>
+												</div>
+												<div class="input-group Project-discription">
+													<label for="field1" class="form-label">Project Description</label>
+													<div class="input-group">
+														<textarea class="form-control"  placeholder="Describe your project here (max 200 words)"></textarea>
+													</div>
+												</div>
+												<div class="input-group">
+													<div class="file-upload">
+														<div class="upload-image">
+															<img src="images/drag-icon.png">
+														</div>
+														<div class="upload-cotent">
+															<h3>Clik to upload or drag & drop</h3>
+															<p>Drag & drop any images or documents that might be helpful in explaining your brief here</p>
+														</div>
+														<div class="file-upload-wrapper">
+															<input type="file" id="input-file-now" class="file-upload" />
+														</div>
+														
+													</div>
+												</div>	
+											</div>
+											<div class="form-buttons">
+												<button type="button" class="btn btn-primary next-step">Next</button>
+											</div>
+										</div>
+										
+										
+										<div class="step step-3">
+											<div class="main-form">
+												<div class="input-group">
+													<input type="text" class="form-control editField" value="Academic content writer" readonly>
+													<a class="edit-icon">
+														<img src="images/edit-icon.png">
+													</a>
+												</div>
+												<div class="input-group Project-discription">
+													<label for="field1" class="form-label">Project Description</label>
+													<div class="input-group">
+														<textarea class="form-control">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this </textarea>
+													</div>
+												</div>
+												
+												<div class="input-group">
+													<div class="customer-file">
+														<div class="file-name">
+															<div class="file-image">
+																<img src="images/file-image.png">
+															</div>
+															<div class="file-extension">
+																<h3>Customer_file.png</h3>
+																<p>456 KB    -   <span>21 second left</span></p>
+															</div>
+														</div>
+														<div class="del-file">
+															<img src="images/delete.png">
+														</div>
+													</div>
+												</div>
+												<div class="skills">
+													<h3>What academic skills is required for this project?</h3>
+													<p>List up to 5 key skills that represent your project. Academic experts will use these skills to match with projects aligned to their interests and expertise.</p>
+													<div class="form-group">
+														<div class="input-group">
+															<input type="text" class="form-control" id="field1" name="field1" placeholder="Type the skills & hit enter">
+														</div>
+														<p>Suggestion skills:  <span>Curriculum Editor, E-Learning Developer, Curriculum Writer, Curriculum Design, Research and Analysis, skill development</span></p>
+													</div>
+												</div>
+											</div>
+											<div class="form-buttons">
+												<button type="button" class="btn btn-primary next-step">Next</button>
+											</div>
+										</div>
+										
+										
+										<!--<div class="step step-4">
+											<div class="main-form">
+												<div class="input-group">
+													<input type="text" class="form-control editField" value="Academic content writer" readonly>
+													<a class="edit-icon">
+														<img src="images/edit-icon.png">
+													</a>
+												</div>
+												<div class="input-group Project-discription">
+													<label for="field1" class="form-label">Project Description</label>
+													<div class="input-group">
+														<textarea class="form-control">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this </textarea>
+													</div>
+												</div>
+												
+												<div class="input-group">
+													<div class="customer-file">
+														<div class="file-name">
+															<div class="file-image">
+																<img src="images/file-image.png">
+															</div>
+															<div class="file-extension">
+																<h3>Customer_file.png</h3>
+																<p>456 KB    -   <span>21 second left</span></p>
+															</div>
+														</div>
+														<div class="del-file">
+															<img src="images/delete.png">
+														</div>
+													</div>
+												</div>
+												<div class="skills">
+													<h3>What academic skills is required for this project?</h3>
+													<p>List up to 5 key skills that represent your project. Academic experts will use these skills to match with projects aligned to their interests and expertise.</p>
+													<div class="form-group">
+														<div class="input-group">
+															<div class="bs-example">
+																<input type="text" name="tags" value="pfTag1,pfTag2,pfTag3" data-role="tagsinput" />
+															 </div>
+															<input type="text" class="form-control" id="field3" name="field3" placeholder="Type the skills & hit enter">
+														</div>
+														<p>Suggestion skills:  <span>Curriculum Editor, E-Learning Developer, Curriculum Writer, Curriculum Design, Research and Analysis, skill development</span></p>
+													</div>
+												</div>
+											</div>
+											<div class="form-buttons">
+												<button type="button" class="btn btn-primary next-step">Next</button>
+											</div>
+										</div>
+										-->
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

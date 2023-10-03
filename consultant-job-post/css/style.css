@@ -1,0 +1,251 @@
+/**Stylesheet**/
+
+@font-face {
+    font-family: 'colfaxmedium';
+    src: url('../fonts/colfax-medium-webfont.woff2') format('woff2'),
+         url('../fonts/colfax-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'colfaxregular';
+    src: url('../fonts/colfax-regular-webfont.woff2') format('woff2'),
+         url('../fonts/colfax-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.site-content {
+    padding: 60px 0;
+}
+
+.job-post-wrapper {
+    max-width: 872px;
+    margin: 0 auto;
+    font-family: 'colfaxregular';
+}
+
+.job-post-wrapper label, .job-post-wrapper h2 {
+    font-family: 'colfaxmedium';
+}
+
+.post-shadow-box {
+    border-radius: 8px;
+    border: 1px solid rgba(14, 0, 98, 0.10);
+    background: #FFF;
+    box-shadow: 12px 17px 48px 0px rgba(14, 0, 98, 0.10);
+    padding: 56px;
+}
+
+.job-post-header {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 89, 201, 0.14);
+    background: rgba(0, 89, 201, 0.08);
+    padding: 24px 32px 20px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+	margin: 0 0 48px 0;
+}
+.job-post-wrapper  p {
+    font-size: 14px;
+}
+.consult-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.consult-heading h2 {
+    font-size: 23px;
+    margin: 0;
+	color: #303744;
+}
+
+.consult-heading p {
+    font-size: 16px;
+    margin: 0;
+    color: #303744;
+}
+
+.post-header-image {
+    text-align: right;
+    margin: -12px 0 -20px 0;
+}
+
+.post-header-content {
+    padding-right: 25px;
+}
+
+.main-form .input-group {
+    display: block;
+	margin: 0 0 25px 0;
+}
+
+.main-form .input-group .form-control{
+	width: 100%;
+    border-radius: 4px !important;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    height: 56px;
+    padding: 10px 16px;
+	box-shadow: none;
+}
+
+.main-form  .form-label {
+    margin: 0 16px -12px 16px;
+    position: relative;
+    display: inline-flex;
+    float: left;
+    z-index: 9;
+    background: #fff;
+    padding: 0 8px;
+}
+.upload-cotent p {
+    color: rgba(48, 55, 68, 0.70);
+    margin: 7px 0 0 0;
+}
+.file-upload input[type="file"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.form-buttons {
+	display: flex;
+    gap: 20px;
+}
+
+.form-buttons button.btn {
+    width: 265px;
+    padding: 16px 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--color-theme-color-2, #0059C9);
+    display: flex;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'colfaxmedium';
+}
+.main-form .edit-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: 24px;
+    height: 24px;
+	z-index: 9;
+	cursor: pointer;
+}
+.main-form .input-group textarea{
+    height: auto;
+    min-height: 120px;
+}
+.customer-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 89, 201, 0.30);
+    background: rgba(0, 89, 201, 0.05);
+    padding: 16px 24px;
+}
+.job-post-wrapper h3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'colfaxmedium';
+    margin: 0 0 5px 0;
+}
+.file-extension p {
+	margin: 0;
+}
+.file-name {
+    display: flex;
+    gap: 20px;
+}
+.file-extension span {
+    color: rgba(48, 55, 68, 0.70);
+}
+.file-upload {
+    border-radius: 4px;
+    border: 2px dashed rgba(48, 55, 68, 0.25);
+    padding: 25px 24px;
+    text-align: center;
+}
+.file-upload {
+    border-radius: 4px;
+    border: 2px dashed rgba(48, 55, 68, 0.25);
+    padding: 25px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.main-form .input-group .form-control.editField {
+    font-weight: 500;
+    font-family: 'colfaxmedium';
+}
+.skills {
+    width: 100%;
+    margin: 15px 0 0 0;
+    display: inline-block;
+}
+.skills h3 {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'colfaxmedium';
+    margin: 0 0 8px 0;
+}
+.skills .form-group .input-group {
+    margin: 0 0 8px 0;
+}
+.skills .form-group p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(48, 55, 68, 0.70);
+}
+.skills span {
+    color: rgba(48, 55, 68, 0.70);
+    font-family: 'colfaxmedium';
+}
+.bootstrap-tagsinput {
+    width: 100%;
+    border-radius: 4px !important;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    height: 56px;
+    padding: 10px 16px;
+    box-shadow: none;
+}
+
+
+/****MEDIA QUERY***/
+
+@media screen and (max-width: 767px)
+{
+	.post-shadow-box {
+		padding: 20px;
+	}
+	
+	.post-header-content {
+		padding-right: 0;
+	}
+	.post-header-image {
+		text-align: center;
+		margin: 0 0 -20px 0;
+	}
+	.form-buttons {
+		justify-content: center;
+	}
+}
