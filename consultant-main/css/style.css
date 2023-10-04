@@ -1,0 +1,253 @@
+/**Stylesheet**/
+
+@font-face {
+    font-family: 'Colfax';
+    src: url('../fonts/Colfax-Regular.woff2') format('woff2'),
+        url('../fonts/Colfax-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Colfax';
+    src: url('../fonts/Colfax-Medium.woff2') format('woff2'),
+        url('../fonts/Colfax-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.site-content {
+    padding: 60px 0;
+}
+
+.Booking-block {
+    max-width: 1096px;
+    margin: 0 auto;
+    font-family: Colfax;
+}
+.billing-heading h2 {
+    color: #303744;
+    font-size: 23px;
+    font-weight: 500;
+}
+.book-expert-block {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 12px 17px 48px 0px rgba(14, 0, 98, 0.10);
+    padding: 32px;
+    max-width: 386px;
+    float: right;
+}
+.Exper-detail-block {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 24px;
+    margin: 0 0 16px 0;
+}
+.Exper-detail-block h3 {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #303744;
+    margin: 0 0 15px 0;
+}
+.epert-img-name .name {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin: 13px 0 0 0;
+}
+
+.method-account {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.method-img-id {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.radio-tick input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.31);
+}
+.billing-wrapper {
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    margin: 0 0 40px 0;
+}
+.billing-list {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 89, 201, 0.30);
+    background: rgba(0, 89, 201, 0.05);
+    padding: 16px 24px;
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
+.primary a.btn {
+    border-radius: 23px;
+    border: 2px  solid #0059C9;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0059C9;
+    height: 22px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    margin-left: 26px;
+}
+.method-img-id .card-data {
+    color: #303744;
+    font-weight: 500;
+}
+.add-billing-buttom button {
+    border-radius: 4px;
+    border: 2px solid  #0059C9;
+    width: 265px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: transparent;
+    color: #0059C9;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: normal;
+    font-family: Colfax;
+}
+
+.time-slot-preview p {
+    color: rgba(48, 55, 68, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin: 0;
+}
+.meeting-summary {
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 24px 0  0;
+    margin: 18px 0 0 0;
+}
+.summary-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 16px 0;
+}
+.summary-list p {
+    font-family: Colfax;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.summary-list span {
+    font-weight: 500;
+}
+.epert-img-name img {
+    width: 100%;
+}
+.summary-list p a {
+    color: #0059C9;
+    font-weight: 500;
+}
+.summary-right em {
+    font-style: normal;
+    font-weight: 500;
+    color: #0059C9;
+}
+.Promo-code label {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    display: inline-block;
+    color: #303744;
+    margin: 0 0 6px 0;
+}
+.Promo-code input {
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    width: 100%;
+    height: 40px;
+    padding: 7px 15px;
+    border-radius: 4px !important;
+}
+.total-summary {
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 24px 0;
+    margin: 24px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+.summary-list:last-child {
+    margin: 0;
+}
+
+.learn-action {
+    margin: 0 0 32px 0;
+}
+.learn-action p {
+    font-size: 14px;
+    margin: 0;
+}
+.learn-action a {
+    font-weight: 500;
+    color: #0059C9;
+}
+.check-fund button {
+    border-radius: 4px;
+    background: #0059C9;
+    width: 100%;
+    padding: 11px;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+}
+
+
+
+/***RESPONSIVE**/
+ 
+ @media screen and (max-width: 992px)
+{
+    .book-expert-block {
+        width: 100%;
+    }
+}
+
+ @media screen and (max-width: 767px)
+{
+    .book-expert-block {
+        width: 100%;
+        max-width: 100%;
+        margin: 40px 0 0;
+        padding: 20px;
+    }
+    .method-img-id {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .primary a.btn {
+        margin-left: 0;
+    }
+    .add-billing-buttom button {
+        margin: 0 auto;
+    }
+}

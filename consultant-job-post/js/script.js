@@ -4,7 +4,7 @@ var currentStep = 1;
 var updateProgressBar;
 
   function displayStep(stepNumber) {
-    if (stepNumber >= 1 && stepNumber <= 4) {
+    if (stepNumber >= 1 && stepNumber <= 7) {
       $(".step-" + currentStep).hide();
       $(".step-" + stepNumber).show();
       currentStep = stepNumber;
@@ -16,7 +16,7 @@ var updateProgressBar;
     $('#multi-step-form').find('.step').slice(1).hide();
   
     $(".next-step").click(function() {
-      if (currentStep < 4) {
+      if (currentStep < 7) {
         $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
         currentStep++;
         setTimeout(function() {
@@ -45,8 +45,15 @@ var updateProgressBar;
     }
   });
   
-  
-  
 
 
+
+/**TAGS INPUT***/
   
+$("#inputTag").tagsinput('items');
+
+$(document).ready(function() {
+        $('.select2').select2({
+        closeOnSelect: false
+    });
+    });
