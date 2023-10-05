@@ -283,8 +283,9 @@
     opacity: 1;
     width: auto;
     height: auto;
+    outline: 0;
+    box-shadow: none;
 }
-
 .consultant-popup  .modal-content {
     padding: 54px 56px 45px 56px;
     font-family: 'Colfax';
@@ -512,7 +513,10 @@
 .schedule-calendar img {
     width: 100%;
 }
-
+.schedule-time {
+    padding-left: 24px;
+    border-left: 1px solid rgba(0, 0, 0, 0.10);
+}
 .schedule-time h3 {
     font-size: 16px;
     font-style: normal;
@@ -571,7 +575,43 @@
 }
 
 
+/**Success Message css***/
 
+.success-form {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 19px 17px 48px 0px rgba(14, 0, 98, 0.12);
+    max-width: 640px;
+    padding: 64px 56px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.success-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.success-content h2 {
+    color: #303744;
+    font-size: 28px;
+    font-style: normal;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+}
+
+.success-content p {
+    color: #303744;
+    font-size: 16px;
+    margin: 0;
+}
+
+.team-review p {
+    color: rgba(48, 55, 68, 0.70);
+}
 
 
 
@@ -611,6 +651,9 @@
 
     .schedule-time {
         margin: 16px 0 0;
+        padding: 24px 0 0 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.10);
+        border-left: 0;
     }
 
     .consultant-popup  .modal-content {
@@ -637,4 +680,7 @@
         margin: 0 0 10px 0;
     }
 
+    .success-form {
+        padding: 20px;
+    }
 }

@@ -203,7 +203,9 @@
     display: flex;
     gap: 20px;
 }
-
+.del-file a {
+    cursor: pointer;
+}
 .file-extension span {
     color: rgba(48, 55, 68, 0.70);
 }
